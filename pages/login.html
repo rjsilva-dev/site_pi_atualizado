@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Infotech</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/panel.css" />
+  </head>
+
+  <body>
+    <!-- LOGO -->
+    <header>
+      <div class="head1">
+        <a href="../main.html">
+          <img src="../img/logo.png" class="logo" alt="Logo do site" />
+        </a>
+      </div>
+    </header>
+
+    <!-- MENU NAVEGAÇÃO-->
+    <div class="menu">
+      <a href="../main.html">Início</a>
+      <a href="../pages/about.html">Sobre Nós</a>
+      <a href="../pages/contact.html">Contato</a>
+      <div class="menu-log">
+        <a href="../pages/login.html">AREA DO CLIENTE</a>
+      </div>
+    </div>
+
+    <!-- painel de login -->
+    <div id="login">
+      <form class="card">
+        <div class="card-header">
+          <img src="../img/png-clipart-computer-icons-user.png" alt="Logo" />
+        </div>
+
+        <div class="card-content">
+          <div class="card-content-area">
+            <label for="usuario">Usuário</label>
+            <input type="text" id="usuario" autocomplete="off" />
+          </div>
+
+          <div class="card-content-area">
+            <label for="password">Senha</label>
+            <input type="password" id="password" autocomplete="off" />
+          </div>
+        </div>
+
+        <!-- Adicionando Flexbox para alinhar os links "lembrar senha" e "esqueceu senha" -->
+        <div class="form-footer">
+          <label>
+            <input type="checkbox" name="lembrar-senha" id="lembrar-senha" />
+            Lembrar senha
+          </label>
+          <a href="#esqueceu-senha">Esqueceu a senha?</a>
+        </div>
+
+        <div class="card-footer">
+          <input type="submit" value="Login" class="submit" />
+          <a href="../pages/cadastro.html" recuperar_senha">Cadastrar</a>
+        </div>
+      </form>
+    </div>
+
+    <!-- RODAPE -->
+    <footer>
+      <p>Copyright © todos os direitos reservados by <b>rjsilva.dev</b></p>
+    </footer>
+  </body>
+</html>

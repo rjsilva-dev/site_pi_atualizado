@@ -1,0 +1,97 @@
+/* Ajustando o estilo do formulário */
+.card {
+  background-color: #ffffff;
+  padding: 50px;
+  border-radius: 5%;
+  width: 250px;
+  margin: 100px auto; /* Centraliza o formulário */
+}
+
+.card-header {
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.card-header img {
+  width: 70px; /* Tamanho da imagem */
+}
+
+.card-content-area {
+  margin-bottom: 15px;
+}
+
+.card-content-area label {
+  font-size: 14px;
+  color: #333;
+}
+
+.card-content-area input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 14px;
+}
+
+/* Alinhamento dos links 'lembrar senha' e 'esqueceu a senha?' lado a lado */
+.form-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.form-footer a {
+  font-size: 12px;
+  color: #333;
+  text-decoration: none;
+}
+
+.form-footer label {
+  font-size: 12px;
+}
+
+.form-footer a:hover {
+  text-decoration: underline;
+}
+
+.card-footer {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.submit {
+  width: 100%;
+  padding: 10px;
+  background-color: #b93939;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.submit:hover {
+  background-color: #a33d3d;
+}
+
+.recuperar_senha {
+  display: block;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #333;
+  text-decoration: none;
+}
+
+.recuperar_senha:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  background-color: #8f0a0a;
+  color: white;
+  padding: 10px;
+  font-size: 14px;
+  width: 100%;
+}

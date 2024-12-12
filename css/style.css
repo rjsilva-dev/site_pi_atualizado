@@ -1,0 +1,103 @@
+body {
+  font-family: Roboto, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+}
+.logo {
+  width: 200px;
+  height: auto;
+  margin-right: 10px;
+}
+.head1 {
+  background-color: #8f0a0a;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 15px;
+  position: relative;
+  height: 80px; /* Ajuste a altura do cabeçalho */
+}
+
+.menu {
+  text-transform: uppercase;
+  position: sticky;
+  top: 0;
+  background-color: #8a1a1a;
+  padding: 0px 0;
+  color: white;
+  overflow: hidden;
+  width: 100%;
+  z-index: 9;
+}
+.menu a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size: 15px;
+}
+.menu a:hover {
+  background-color: #6e0909;
+}
+.menu-log {
+  float: right;
+}
+
+footer {
+  background-color: #8f0a0a;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  font-size: 14px;
+  font-weight: normal;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+.body_sec {
+  margin-left: 20px;
+  margin-bottom: 100px; /* Espaço para não cobrir o rodapé */
+}
+main {
+  padding: 20px;
+}
+
+#galeria .gallery {
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  flex-wrap: wrap; /* Permite quebra de linha, caso necessário */
+  gap: 10px; /* Espaçamento entre as imagens */
+}
+
+#galeria .gallery img {
+  width: 30%; /* Ajuste a largura conforme necessário */
+  border-radius: 10px;
+}
+
+
+#videos .video-gallery {
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  flex-wrap: wrap; /* Permite quebra de linha para vídeos grandes */
+  gap: 10px; /* Espaçamento entre os vídeos */
+}
+
+#videos .video-gallery video {
+  width: 100%; /* Ajuste a largura conforme necessário */
+  max-width: 500px; /* Limite de tamanho */
+}
+
+section {
+  margin-bottom: 20px;
+}
+#sobre {
+  padding: 20px;
+  margin: 20px 0;
+}
+
+

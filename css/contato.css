@@ -1,0 +1,73 @@
+/* ESTILIZAÇÃO DO FORMULÁRIO DE CONTATO */
+.formulario-contato {
+  margin-top: 20px;
+  width: 100%; /* Defina uma largura desejada ou 100% */
+  max-width: 600px; /* Defina um limite máximo para o tamanho do formulário */
+  margin: 0 auto; /* Isso centraliza o formulário horizontalmente */
+}
+
+.formulario-contato h3 {
+  font-size: 22px;
+  margin-bottom: 15px;
+  text-align: center; /* Centraliza o título do formulário */
+}
+
+.formulario-contato label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.formulario-contato input,
+.formulario-contato textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.formulario-contato textarea {
+  height: 250px; /* Define altura para a área de texto */
+  resize: vertical; /* Permite que o usuário redimensione a altura */
+}
+
+.formulario-contato button {
+  background-color: #8f0a0a;;
+  color: #fff;
+  font-size: 18px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  display: block;
+  margin: 0 auto; /* Centraliza o botão */
+}
+
+.formulario-contato button:hover {
+  background-color: #8d2626;
+}
+
+/* Ajustes para dispositivos móveis - Formulário */
+@media (max-width: 768px) {
+  .formulario-contato {
+    width: 90%; 
+  }
+
+  .formulario-contato label {
+    font-size: 14px; 
+  }
+
+  .formulario-contato input,
+  .formulario-contato textarea {
+    font-size: 14px; 
+  }
+
+  .formulario-contato button {
+    font-size: 14px; 
+    padding: 10px 18px; 
+  }
+}
